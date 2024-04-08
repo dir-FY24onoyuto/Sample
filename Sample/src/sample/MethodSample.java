@@ -11,9 +11,14 @@ public class MethodSample {
         
         //------追記（ここから）ーーーーーーー
         var result2 = sumMethod2(number1,number2);
-   System.out.println("sumMethod2の結果は" ＋ result2);
+   System.out.print("sumMethod2の結果は" ＋ result2);
 //---------追記（ここまで）ーーーーーーーー
     
+    }
+
+    private static Object sumMethod2(int number1, int number2) {
+        // TODO 自動生成されたメソッド・スタブ
+        return null;
     }
 
     public static void sumMethod1(int num1,int num2) {
@@ -23,7 +28,7 @@ public class MethodSample {
         
         //ーーーーーー追記（ここから）ーーーーーー
         
-       public static int sumMethod2(int num1,int num2) {
+     public static record sumMethod2(int num1,int num2) {
            var resukt = num1 + num2;
            return result;           
        }
