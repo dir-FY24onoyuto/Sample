@@ -23,11 +23,11 @@ public class ExceptionExample2 {
    
      public static int divide(int a, int b) throws ArithmeticException {
          if(b == 0) {
-             //0での除算を試みた場合、ArithmeticExceptionを投げます
+           // 0での除算を試みた場合、ArithmeticExceptionを投げます
              throw new ArithmeticException("除算エラーです");
-         }
+            }
          return a /b;
          
-         }
+       }
     }
 
